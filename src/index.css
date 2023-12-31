@@ -1,0 +1,16 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+:root {
+  --background-color: #ffff;
+  --foreground-color: #055dff;
+  --primary-text-color: black;
+}
+
+[data-theme="dark"] {
+  --background-color: #000000;
+  --foreground-color: #0e2b5e;
+  --primary-text-color: white;
+}
