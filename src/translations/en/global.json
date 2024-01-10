@@ -1,5 +1,12 @@
 {
   "header": {
-    "message": "Hi, i'm developer"
+    "message": "☀️ヾ(•ω•`)o Good morning Mr. Sunshine"
+  },
+  "AboutMe": {
+    "header": "A dreamer and perfectionist full stack developer",
+    "content": "I am David Castro Mora, student of systems and computer engineering and above all a passionate about software development. I have been 2-3 years in constant evolution and learning as a developer, specializing in web development in both backend and frontend."
+  },
+  "Projects": {
+    "header": "Projects"
   }
 }
