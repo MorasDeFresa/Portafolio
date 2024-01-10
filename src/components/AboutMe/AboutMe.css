@@ -1,0 +1,6 @@
+.AboutDiv {
+  background-color: var(--foreground-color);
+  width: 100%;
+  padding: 0.5rem;
+  margin-right: 25px;
+}
