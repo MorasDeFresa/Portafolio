@@ -1,35 +1,42 @@
 /* eslint-disable react/no-unknown-property */
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import useLocalStorage from "use-local-storage";
+import { useEffect } from "react";
 import "./App.css";
 
 import { useLanguage } from "./hooks/useLanguage";
-import IdiomButton from "./components/IdiomButton";
-import ThemeButton from "./components/ThemeButton";
+import NavBar from "./components/NavBar/NavBar";
+import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 function App() {
-  const [isDark, setIsDark] = useState(true);
-  const [t, handleChangeLanguage] = useLanguage();
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDark, setIsDark] = useLocalStorage("isDark", preference);
+  const [t, handleChangeLanguage, actualLanguage] = useLanguage();
+  const [language, setLanguage] = useLocalStorage("language", actualLanguage);
+
+  useEffect(() => {
+    handleChangeLanguage(language);
+  }, []);
 
   return (
-    <div className="App" data-theme={isDark ? "dark" : "light"}>
-      <div>
-        <IdiomButton handleChangeLanguage={handleChangeLanguage} />
-        <ThemeButton setIsDark={setIsDark} isDark={isDark} />
-        <p>{t("header.message")}</p>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <>
+      <NavBar
+        handleChangeLanguage={handleChangeLanguage}
+        isDark={isDark}
+        setIsDark={setIsDark}
+        language={language}
+        setLanguage={setLanguage}
+      />
+      <div className="App" data-theme={isDark ? "dark" : "light"}>
+        <h1>{t("header.message")}</h1>
+        <div className="Content">
+          <AboutMe />
+          <hr />
+          <Projects />
+          <hr />
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
-      </div>
-    </div>
+    </>
   );
 }
 
