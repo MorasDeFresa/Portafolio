@@ -2,7 +2,7 @@ import LinkSocialMedia from "../../assets/LinkSocialMedia.json";
 import { useLanguage } from "../../hooks/useLanguage";
 
 const SocialMedia = () => {
-  const [t, handleChangeLanguage, actualLanguage] = useLanguage();
+  const [t, , actualLanguage] = useLanguage();
   let UrlMeet;
   if (actualLanguage === "es") UrlMeet = LinkSocialMedia.Reunion;
   else {
