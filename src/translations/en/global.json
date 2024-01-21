@@ -4,9 +4,15 @@
   },
   "AboutMe": {
     "header": "A dreamer and perfectionist full stack developer",
-    "content": "I am David Castro Mora, student of systems and computer engineering and above all a passionate about software development. I have been 2-3 years in constant evolution and learning as a developer, specializing in web development in both backend and frontend."
+    "content": "I am David Castro Mora, student of systems and computer engineering and above all a passionate about software development. I have been 2-3 years in constant evolution and learning as a developer, specializing in web development in both backend and frontend.",
+    "tool": "Tech skills",
+    "cv": "Curriculum vintage"
   },
   "Projects": {
     "header": "Projects"
+  },
+  "SocialMedia": {
+    "header": "Connect with me",
+    "meet": "Schedule a meeting"
   }
 }

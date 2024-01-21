@@ -1,0 +1,21 @@
+{
+  "User": "MorasDeFresa",
+  "Media": [
+    {
+      "Url": "https://github.com/MorasDeFresa",
+      "Image": "bi-github"
+    },
+    {
+      "Url": "https://linkedin.com/in/MorasDeFresa",
+      "Image": "bi-linkedin"
+    },
+    {
+      "Url": "mailto:david@castromora.lat",
+      "Image": "bi-envelope-plus-fill"
+    }
+  ],
+  "Reunion": "https://calendly.com/morasdefresa/oferta-de-servicios",
+  "Meet": "https://calendly.com/morasdefresa/30min",
+  "En_CV": "https://drive.google.com/file/d/1IDuiJRwzzbjeKjXAGkaHtpRUsHp0y_4_/view?usp=sharing",
+  "Es_CV": "https://drive.google.com/file/d/1Rc8xTixFFSbIwn5wc6IbuLmu37sBmslk/view?usp=sharing"
+}

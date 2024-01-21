@@ -4,9 +4,15 @@
   },
   "AboutMe": {
     "header": "Un desarrollador full stack soñador y perfeccionista",
-    "content": "Soy David Castro Mora, estudiante de ingeniería de sistemas y computación y sobre todo un apasionado por el desarrollo de software. Llevo 2-3 años en constante evolución y aprendizaje como desarrollador, especializandome en el desarrollo web tanto en backend como frontend"
+    "content": "Soy David Castro Mora, estudiante de ingeniería de sistemas y computación y sobre todo un apasionado por el desarrollo de software. Llevo 2-3 años en constante evolución y aprendizaje como desarrollador, especializandome en el desarrollo web tanto en backend como frontend",
+    "tool": "Habilidades técnicas",
+    "cv": "Hoja de vida"
   },
   "Projects": {
     "header": "Proyectos"
+  },
+  "SocialMedia": {
+    "header": "Estemos en contacto",
+    "meet": "Programa una reunion"
   }
 }
