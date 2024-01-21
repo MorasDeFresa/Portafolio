@@ -7,6 +7,7 @@ import { useLanguage } from "./hooks/useLanguage";
 import NavBar from "./components/NavBar/NavBar";
 import Projects from "./components/Projects/Projects";
 import AboutMe from "./components/AboutMe/AboutMe";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
 
 function App() {
   const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -34,6 +35,7 @@ function App() {
           <hr />
           <Projects />
           <hr />
+          <SocialMedia />
         </div>
       </div>
     </>
