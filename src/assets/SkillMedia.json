@@ -1,0 +1,66 @@
+{
+  "Backend": {
+    "Media": [
+      {
+        "url": "https://expressjs.com",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      },
+      {
+        "url": "https://nodejs.org",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+      }
+    ]
+  },
+  "Frontend": {
+    "Media": [
+      {
+        "url": "https://reactjs.org/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+      },
+      {
+        "url": "https://getbootstrap.com",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+      },
+      {
+        "url": "https://redux.js.org",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      },
+      {
+        "url": "https://www.w3schools.com/css/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+      },
+      {
+        "url": "https://www.w3.org/html/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+      }
+    ]
+  },
+  "DataBase": {
+    "Media": [
+      {
+        "url": "https://www.mongodb.com/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+      },
+      {
+        "url": "https://www.mysql.com/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+      },
+      {
+        "url": "https://www.postgresql.org",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+      }
+    ]
+  },
+  "DevOps": {
+    "Media": [
+      {
+        "url": "https://www.docker.com/",
+        "img": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+      }
+    ]
+  }
+}
