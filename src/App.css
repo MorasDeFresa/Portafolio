@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+  color: var(--primary-text-color);
   font-size: clamp(0.8rem, 0.8rem + 0.5vw, 5rem);
 }
 
@@ -51,5 +52,9 @@ i.bi {
   img {
     object-fit: cover;
     object-position: top;
+  }
+
+  .btn:hover {
+    border-color: var(--outline-color);
   }
 }
