@@ -26,7 +26,7 @@ const IdiomButton = ({ handleChangeLanguage, setLanguage, language }) => {
       height: 10,
       backgroundColor: "var(--background-color)",
       "@media screen and (max-width: 600px)": {
-        width: "60%",
+        width: "50%",
         fontSize: 12,
       },
     }),
