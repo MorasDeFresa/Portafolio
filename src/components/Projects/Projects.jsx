@@ -1,15 +1,20 @@
 import { useLanguage } from "../../hooks/useLanguage";
+import "./Projects.css";
+import { ModalContext } from "../../App";
+import { useContext } from "react";
 
 const Projects = () => {
+  const [openModal, setOpenModal] = useContext(ModalContext);
   const [t] = useLanguage();
+
   return (
     <div>
       <h1>{t("Projects.header")}</h1>
       <div
         id="carouselExampleCaptions"
-        className="carousel carousel-dark slide"
+        className="carousel carousel-dark slide BelowModal"
       >
-        <div className="carousel-indicators">
+        <div className="carousel-indicators ">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
@@ -44,7 +49,7 @@ const Projects = () => {
               className="d-block w-100"
               alt="..."
               onClick={() => {
-                console.log("Mariano");
+                setOpenModal(!openModal);
               }}
             />
           </div>
